@@ -19,7 +19,7 @@ export const Nav = () => {
         
     ]
     return (
-        <nav className="flex md:flex-row flex-col gap-5 my-5  p-2 justify-around text-[18px] items-center">
+        <nav className="flex md:flex-row flex-col gap-5 my-5  p-2 justify-around text-[12px] items-center">
             {Links.map((link) => <><a href={link.url}>
                 <div className="flex items-center gap-1">
                     {link.icon && <img src={link.icon} className="h-5 rounded-md"/>}
