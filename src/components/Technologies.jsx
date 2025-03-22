@@ -11,7 +11,7 @@ export const Technologies = () => {
     ]
     return (
         <CardWrapper>
-            <div className="text-sm p-2">
+            <div className="text-lg p-2">
                 <div className="title">
                     Technologies
                 </div>

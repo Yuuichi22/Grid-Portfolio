@@ -3,7 +3,7 @@ import { CardWrapper } from "./CardWrapper"
 export const Map = () => {
     return (
         <CardWrapper>
-          {/*  <div className="text-sm  p-2">
+          {/*  <div className="text-lg  p-2">
       <div id="embedded-map-display " >
         <iframe
         className="w-full "
