@@ -31,10 +31,10 @@ function App() {
         {count}
       </div>
     ) : (
-      <div className="h-screen overflow-y-auto snap-y snap-mandatory text-[aliceblue]">
+      <div className="min-h-screen overflow-y-auto snap-y snap-mandatory text-[aliceblue]">
         <div className="md:m-auto py-10 md:px-10 md:w-[80%] w-full max-w-screen-lg font-[poppins] flex flex-col">
           {/* Hero & Main Content Section */}
-          <div className="snap-center md:h-screen py-5">
+          <div className="snap-center md:min-h-screen py-5">
             <Nav />
             <div className="cards flex flex-col md:grid grid-cols-3 gap-4 px-10">
               <Hero />
@@ -44,7 +44,7 @@ function App() {
             </div>
           </div>
           {/* Projects Section */}
-          <div className="flex flex-col items-center gap-4 snap-center md:h-screen">
+          <div className="flex flex-col items-center gap-4 snap-center md:min-h-screen">
             <h1 className="text-2xl">Projects</h1>
             <div className="md:grid md:grid-cols-2 flex flex-col gap-4">
               <Project 
