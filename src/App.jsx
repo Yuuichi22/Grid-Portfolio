@@ -8,6 +8,7 @@ import mentorloop from "./assets/mentorloop.png";
 import { Hero } from "./components/Hero";
 import './App.css';
 import { useEffect, useState } from "react";
+import { ProjectCard } from "./components/ProjectCard";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -46,8 +47,14 @@ function App() {
           {/* Projects Section */}
           <div className="flex flex-col items-center gap-4 snap-center md:min-h-screen">
             <h1 className="text-2xl">Projects</h1>
-            <div className="md:grid md:grid-cols-2 flex flex-col gap-4">
-              <Project 
+            <div className="cards flex flex-col md:grid grid-cols-3 gap-4 px-10">
+            <ProjectCard title="MentorLoop" bullets={[
+"Designed and developed a platform connecting college students with alumni mentors to enhance technical education",
+ "Built with React (front end), Node.js, Express.js, and PostgreSQL (back end) using Prisma ORM."]}/>
+  <ProjectCard title="Wordle" bullets={[
+"Designed and developed a platform connecting college students with alumni mentors to enhance technical education",
+ "Built with React (front end), Node.js, Express.js, and PostgreSQL (back end) using Prisma ORM."]}/>
+             {/* <Project 
                 img={wordle} 
                 desc="Developed a web-based version of the Wordle game using React. Implemented interactive UI components and optimized gameplay mechanics for a seamless user experience."
                 icons={[
@@ -64,7 +71,8 @@ function App() {
                   "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
                   "https://avatars.githubusercontent.com/u/17219288?s=280&v=4"
                 ]}
-              />
+              />*/}
+       
             </div>
           </div>
         </div>
