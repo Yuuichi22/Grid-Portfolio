@@ -4,7 +4,7 @@ export const Nav = () => {
         {
             name : "2022pcecsdivyansh046@poornima.org",
             icon : "",
-            url : "2022pcecsdivyansh046@poornima.org"
+            url : "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhnrscbkMzPKHQbgwcmJkWRjfzKpNCZDpzlFmWGTMMXNCtTDhZqrdBvTPTpVnFqjKcMxD"
         },
         {
             name : "Leetcode",
